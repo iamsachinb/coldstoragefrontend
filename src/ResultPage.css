@@ -1,0 +1,55 @@
+.result-page {
+    background-image: url('./assets/pexels-monstera-12716479.jpg'); /* Background image */
+    background-size: cover;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns content to the right */
+    justify-content: center; /* Centers vertically */
+    color: white;
+}
+
+.result-header {
+    background-color: #E26C06; /* Orange background for header */
+    width: 100%; /* Full width */
+    text-align: center;
+    padding: 20px;
+}
+
+.result-heading {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.result-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Gap between output fields */
+    margin-top: 20px;
+    width: 300px; /* Limit width of content */
+    align-items: flex-end; /* Align text to the right */
+    color: #052CAE;
+    margin-left: 20px; /* Move content a little bit left */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #052CAE; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px; /* Move button a little bit left */
+}
+
+/* New styles for inputs */
+input {
+    background-color: #A4C8E1; /* Pale blueberry color */
+    border: 1px solid #052CAE; /* Border color to match theme */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
